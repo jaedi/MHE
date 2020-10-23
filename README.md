@@ -1,5 +1,5 @@
 # MHE
-Mental Health Evaluation Prototypes
+Mental Health Evaluation Prototype(s)
 
 This is a school project named Mental Health Evaluation System. This project's function is to asess or evaluate a persons mental health with the following features:
   - Mental health tracking
