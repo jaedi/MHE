@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        }
+        html {
+        scroll-behavior: smooth;
+        }
+        .navbar{
+            padding: 23px 0;
+            /* background: rgb(65, 176, 201); */
+            background: rgb(255, 255, 255);
+            /* box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+            position: fixed;
+            width: 100%;
+        }
+        .nav-logo{
+           margin: auto auto auto 55px;
+           color: #000;
+           font-size: 15px;
+        }
+        .navbar-menu{
+            float: right;
+            display: block;
+        }
+        .navbar-menu ul{
+            list-style: none;
+            margin: -20px 20px 1px;
+            
+        }
+        .navbar-menu li{
+            display: inline;
+            margin: 0 5px;
+        }
+        .navbar-menu li a{
+            text-decoration: none;
+            color: #000;
+            padding: 25px;
+            font-family: WhitneySemiBold,Arial,Helvetica,"Nimbus Sans L",sans-serif;
+            font-size: 15px;
+            font-weight: 15px;
+        }
+        .navbar-menu li a:hover{
+            background: #ff9046;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .main{
+            /* background: url('images/nature.jpg'); */
+            background: #ebebeb;
+            background-size: cover;
+            padding: 170px;
+            color:black;
+            
+        }
+
+        .main-title{
+            text-align: center;
+            margin: 0 auto;
+    	    display: block;
+            font-size: larger;
+        }
+        .btn-custom {
+            color: #fff !important;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #fa7218;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            border: none;
+            transition: all 0.4s ease 0s;
+            cursor: pointer;
+        }
+        .btn-one {
+            color: #fff !important;
+            text-decoration: none;
+            background: #0069A3;
+            padding: 10px !important;
+            border-radius: 5px;
+            border: none;
+            transition: all 0.4s ease 0s;
+            cursor: pointer;
+        }
+        .btn-two {
+            color: #fff !important;
+            text-decoration: none;
+            background: #0069A3;
+            padding: 10px !important;
+            border-radius: 5px;
+            border: none;
+            transition: all 0.4s ease 0s;
+            cursor: pointer;
+        }
+
+        .about{
+            background: cornsilk;
+            padding: 310px;
+        }
+
+        .about-title{
+            text-align: center;
+            margin: 0 auto;
+    	    display: block;
+            font-size: larger;
+        }
+
+        .contact-us{
+            background: azure;
+            padding: 210px;
+        }
+
+        .contact-us-title{
+            text-align: center;
+            margin: 0 auto;
+    	    display: block;
+            font-size: larger;
+        }
+        .footer{
+            background: rgb(111, 216, 216);
+            padding: 100px;
+        }
+
+        .footer-content{
+            text-align: center;
+            margin: 0 auto;
+    	    display: block;
+        }
+        #about .navbar{
+            color: black;
+        }
+
+
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <h3>MHE</h3>
+        </div>
+
+        <div class="navbar-menu">
+            <ul>
+                <li>
+                    <a href="#main">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact-us">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#" class="btn-one">Sign In / Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="main" id="main">
+        <div class="main-title">
+            <img src="images/mhlogo.png" alt="Logo" width="200px" height="200px">
+            <h1>Mental Health Evaluation</h1>
+            <p>
+                Mental health is important at every stage of life, from childhood and adolescence through adulthood. Over the course of your life, if you experience mental health problems, your thinking, mood, and behavior could be affected.
+            </p>
+            <button class="btn-custom">Take Evaluation</button>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="about-title">
+            <h1>About Us</h1>
+        </div>
+    </div>
+    <div class="contact-us" id="contact-us">
+        <div class="contact-us-title">
+            <h1>Contact Us</h1>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p><a href="">Link ng website nung ano, yung ano, basta yung ano.</a></p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius minus officia quasi at eos explicabo provident excepturi beatae perspiciatis sequi hic, recusandae nulla aliquid nam neque ab incidunt error amet?</p>
+            <p> &copy; 2020 All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
